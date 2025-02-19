@@ -1,3 +1,6 @@
+# Crea una clase Persona con los atributos nombre, edad y profesion. Agrega un método presentarse() 
+# que devuelva un mensaje con su información.
+
 class persona:
     def __init__(self, nombre, edad, profesion):
         self.nombre = nombre

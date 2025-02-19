@@ -1,3 +1,6 @@
+# Extiende la clase Persona creando una subclase Estudiante, agregando un nuevo atributo grado 
+# y sobrescribiendo el método presentarse().
+
 class persona:
     def __init__(self, nombre, edad, profesion):
         self.nombre = nombre
