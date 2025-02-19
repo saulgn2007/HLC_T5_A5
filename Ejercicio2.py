@@ -9,6 +9,11 @@ class persona:
     def presentarse(self):
         print(f"Hola, mi nombre es {self.nombre}, tengo {self.edad} años y soy {self.profesion}.")
 
-p = persona("Ana", 32 , "arquitecta")
+ana = persona("Ana", 32 , "arquitecta")
 
-p.presentarse()
+ana.presentarse()
+
+class estudiante(persona):
+    def __init__(self, nombre, edad, profesion, grado):
+        super().__init__(nombre, edad, profesion)
+        self.grado = grado
